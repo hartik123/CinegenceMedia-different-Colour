@@ -1,0 +1,85 @@
+/* for sliding images */
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } */
+
+  .main_div {
+    width: 100vw;
+    /* height: 100vh; */
+    /* background-color: hsl(206, 21%, 94%); */
+    display: grid;
+    place-items: start;
+  }
+
+  .center_div {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+  }
+
+  .images {
+    box-shadow: 10px 10px 10px white;
+    padding: 10px;
+    border-radius: 30px;
+    transition: transform 0.3s ease-in;
+  }
+
+  .images:hover {
+    transform: scale(1.1);
+  }
+
+  .center_div::-webkit-scrollbar {
+    overflow: hidden;
+  }  
+  
+  
+
+  /* on image hover displaying text */
+
+  /* Parent Container */
+.content_img{
+    position: relative;
+    width: auto;
+    height: auto; 
+   }
+   
+   /* Child Text Container */
+   .content_img div{
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    margin: 20px;
+    border-radius: 30px;
+
+    background: black;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+   }
+   
+   /* Hover on Parent Container */
+   .content_img:hover{
+    cursor: pointer; 
+    transform: scale(1.1);
+   }
+   
+   .content_img:hover div{
+    width: inherit;
+    height: inherit;
+    transform: scale(1.1); 
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7; 
+   }
+
+
+   
