@@ -8,7 +8,7 @@ const Reels = () => {
         <div id="reels">
 
             <h1 style={{color: "#fff"}}>
-                This is reels
+                REELS
             </h1>
             
 

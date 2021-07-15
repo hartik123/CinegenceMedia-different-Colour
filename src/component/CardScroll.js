@@ -52,7 +52,7 @@ function CardScroll() {
     return (
         <>
             
-            <div className="CardScroll">
+            <div className="cardScroll">
                 <Carousel breakPoints={breakPoints}>
                     {/* {
                         images.map(image => {

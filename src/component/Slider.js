@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
 import './Slider.css';
+import {Link} from 'react-router-dom';
 
 
 const Slider = (props) => {
@@ -19,12 +20,14 @@ const Slider = (props) => {
                 {
                     images.map((imageUrl) => {
                         console.log(imageUrl)
-                        return (<div className="content_img">
+                        return (<Link to={`/reels/${imageUrl.id}`}>
+                            <div className="content_img">
                             <img className="images" key={imageUrl.id} src={`https://picsum.photos/200/300?random=${imageUrl.id}`} />
                             <div>
                                 {imageUrl.title}
                             </div>
-                        </div>)
+                        </div>
+                        </Link>)
                     })
                 }
             </div>

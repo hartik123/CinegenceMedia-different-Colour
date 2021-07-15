@@ -45,7 +45,7 @@ const About = () => {
 <>
 
     <div id="about" style={{ minHeight: "100vh", marginTop: "-0.97rem", paddingTop: "1rem"}}>
-<center><h1 style={{color: "#f5ebeb"}}>About Us</h1></center>
+<center><h1 style={{color: "#f5ebeb"}}>ABOUT US</h1></center>
     {/* {true && <Nav />} */}
       <center>
       <p style={{fontSize: "2rem", width: "60%",padding: "2rem", textAlign: "center", color: "#f5ebeb"}}>CINEGENCE MEDIA is a boutique studio located in Mumbai India the heart of Bollywood, and the centre for the best talent available across the world for visual effects with the experience of working on some of the biggest Hollywood Movies.</p>

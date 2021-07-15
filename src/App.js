@@ -7,6 +7,7 @@ import Reels from './pages/Reels'
 import Contact from './pages/Contact';
 import Navbar from './component/Navbar';
 import HamburgerMenu from 'react-hamburger-menu';
+import Footer from './component/Footer';
 
 
 const App = () => {
@@ -44,6 +45,9 @@ const App = () => {
             id="reels" />
             <Contact 
             id="contact" />
+            <center>
+            <Footer />
+            </center>
         </div>
     )
 }
