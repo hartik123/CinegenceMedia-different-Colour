@@ -6,8 +6,8 @@ import './Navbar.css';
 const Navbar = ({ data }) => {
     return (
         <div style={{ zIndex: 1, position: "fixed" }}>
-            {/* <ul className="nav-items" style={{ display: "flex", flexDirection: "column", margin: "0.7rem",width: "15vw", height: "47vh",paddingTop: "1rem", backgroundColor: "white", borderRadius: "1rem", boxShadow:"6px 6px 1rem grey" }}> */}
-            <ul className="nav-items" style={{ display: "flex", flexDirection: "column", margin: "0.7rem",width: "15vw", height: "95vh",paddingTop: "1rem", backgroundColor: "white", borderRadius: "1rem", boxShadow:"6px 6px 1rem grey" }}>
+            
+            <ul className="nav-items" style={{ display: "flex", flexDirection: "column", boxSizing: "border-box",width: "15vw", height: "90vh",margin:"1rem", paddingTop: "1rem", backgroundColor: "white", borderRadius: "1rem", boxShadow:"6px 6px 1rem grey" , textAlign: "center"}}>
                 <Link
                 class="link"
                     activeClass="active"

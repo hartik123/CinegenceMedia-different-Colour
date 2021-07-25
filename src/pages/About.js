@@ -23,7 +23,7 @@
 
 
 
-import React from 'react'
+  import React from 'react'
 import {Link} from 'react-router-dom';
 import './About.css';
 import Image from 'react-bootstrap/Image';
@@ -44,7 +44,7 @@ const About = () => {
   return (
 <>
 
-    <div id="about" style={{ minHeight: "100vh", marginTop: "-0.97rem", paddingTop: "1rem"}}>
+    <div id="about" style={{ minHeight: "100vh", marginTop: "0rem", paddingTop: "1rem"}}>
 <center><h1 style={{color: "#f5ebeb"}}>ABOUT US</h1></center>
     {/* {true && <Nav />} */}
       <center>

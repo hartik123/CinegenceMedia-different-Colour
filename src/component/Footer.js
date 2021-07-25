@@ -29,7 +29,7 @@ function Footer() {
             fontSize: "14px",
           }}
         >
-          © All copy rights reserved by Edelweiss Asset Management Ltd.
+          © All copy rights reserved by Cinegence Media Ltd.
         </p>
         <p
           style={{
@@ -41,7 +41,7 @@ function Footer() {
           }}
         >
           Disclaimer: This software/weblink is intended soley for the use of
-          distributors of Edelweiss Group. An unauthorized use and dissemination
+          distributors of Cinegence Media Group. An unauthorized use and dissemination
           of database(s) is strictly prohibited.
         </p>
       </div>
