@@ -4,8 +4,8 @@ video {
     width:auto;
     height: 115%;
  
-    z-index: -100;
-    background-size: cover;
+    z-index: -2;
+    background-size: contain;
     transition: 1s opacity;
 }
 
@@ -18,3 +18,4 @@ video {
     -webkit-transition-position: fixed;
     position: fixed;
 }
+

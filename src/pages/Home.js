@@ -10,6 +10,7 @@ const Home = () => {
 
                 <source src={Logo} type="video/mp4" />
             </video>
+            
         </div>
     )
 }

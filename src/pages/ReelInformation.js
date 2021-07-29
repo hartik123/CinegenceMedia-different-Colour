@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { FaPlay } from 'react-icons/fa'
 import Reels from './Reels'
 import { useParams, useHistory, Link } from 'react-router-dom';
@@ -7,6 +7,10 @@ const ReelInformation = () => {
     const { _id } = useParams();
     const history = useHistory();
 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+ 
+    })
     // useEffect(()=>{
     //     fetch('')
     //     .then(res=>res.json(`https://picsum.photos/200/300?random=${_id}`))

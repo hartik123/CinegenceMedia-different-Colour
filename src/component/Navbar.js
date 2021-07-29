@@ -5,9 +5,10 @@ import './Navbar.css';
 
 const Navbar = ({ data }) => {
     return (
-        <div style={{ zIndex: 1, position: "fixed" }}>
+        <div style={{ zIndex: 1, position: "fixed", display: "flex", flexDirection: "column", boxSizing: "border-box",width: "100vw", height: "40vh",paddingTop: "1rem", backgroundColor: "white", borderRadius: "0rem 0rem 1rem 1rem", boxShadow:"6px 6px 1rem grey" }}>
             
-            <ul className="nav-items" style={{ display: "flex", flexDirection: "column", boxSizing: "border-box",width: "15vw", height: "90vh",margin:"1rem", paddingTop: "1rem", backgroundColor: "white", borderRadius: "1rem", boxShadow:"6px 6px 1rem grey" , textAlign: "center"}}>
+            {/* <ul className="nav-items" style={{ display: "flex", flexDirection: "column", boxSizing: "border-box",width: "15vw", height: "90vh",margin:"1rem", paddingTop: "1rem", backgroundColor: "white", borderRadius: "1rem", boxShadow:"6px 6px 1rem grey" , textAlign: "center"}}> */}
+                <center>
                 <Link
                 class="link"
                     activeClass="active"
@@ -17,9 +18,11 @@ const Navbar = ({ data }) => {
                     offset={0}
                     duration={500}
                     exact
-                    style={{ margin: "1rem", cursor: "pointer"}}
+                    style={{width: "100vw", cursor: "pointer"}}
                     onClick={() => data.setOpen(false)}
                     >Home</Link>
+                </center>
+                <center>
                 <Link
                  class="link"
                     activeClass="active"
@@ -29,9 +32,11 @@ const Navbar = ({ data }) => {
                     offset={0}
                     duration={500}
                     exact
-                    style={{ margin: "1rem", cursor: "pointer"}}
+                    style={{width: "100vw", cursor: "pointer"}}
                     onClick={() => data.setOpen(false)}
                 >About</Link>
+                </center>
+                <center>
                 <Link
                  class="link"
                     activeClass="active"
@@ -41,9 +46,11 @@ const Navbar = ({ data }) => {
                     offset={0}
                     duration={500}
                     exact
-                    style={{ margin: "1rem", cursor: "pointer"}}
+                    style={{width: "100vw", cursor: "pointer"}}
                     onClick={() => data.setOpen(false)}
                 >Reels</Link>
+                </center>
+                <center>
                 <Link
                  class="link"
                     activeClass="active"
@@ -53,9 +60,11 @@ const Navbar = ({ data }) => {
                     offset={0}
                     duration={500}
                     exact
-                    style={{ margin: "1rem", cursor: "pointer"}}
+                    style={{ width: "100vw", cursor: "pointer"}}
                     onClick={() => data.setOpen(false)}
                 >Services</Link>
+                </center>
+                <center>
                 <Link
                  class="link"
                     activeClass="active"
@@ -65,10 +74,11 @@ const Navbar = ({ data }) => {
                     offset={0}
                     duration={500}
                     exact
-                    style={{ margin: "1rem", cursor: "pointer"}}
+                    style={{  cursor: "pointer"}}
                     onClick={() => data.setOpen(false)}
                 >Connect</Link>
-            </ul>
+                </center>
+            {/* </ul> */}
 
         </div>
     )
