@@ -18,7 +18,7 @@ const ReelInformation = () => {
     //     .catch(err=> console.log(err.data));
     // })
     return (
-        <div>
+        <div style={{backgroundColor: "grey"}}>
             <button style={{ color: "white", backgroundColor: "black", borderRadius: "1rem", margin: "1rem" }} onClick={() => history.push("/")}>Go back</button><br />
 
             <Link to="/reels/4/watch">

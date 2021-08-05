@@ -5,7 +5,7 @@ import {useHistory} from 'react-router-dom';
 const OwnerInformation = () => {
     const history = useHistory();
     return (
-        <div style= {{display: "flex",marginLeft:"4rem  "}}>
+        <div style= {{display: "flex",paddingLeft:"4rem", backgroundColor: "black"}}>
         <div style={{minHeight: "100vh", display: "inline-block"}}>
             <button style={{color: "white", backgroundColor:"black", borderRadius: "1rem", margin:"1rem"}} onClick={()=>history.goBack()}>Go back</button>
             <CardComponent />
@@ -16,7 +16,7 @@ const OwnerInformation = () => {
             <h1 style= {{color:"white"}}>Stephen Mascarenhas</h1>
             <h3 style= {{color:"#666666",marginLeft:"1px auto"}} >Founder and CEO</h3>
             </div>
-            <p style = {{fontFamily:"serif",fontSize:"20px",color:"GrayText" ,width: "100%", textAlign:"center"}}>My Bonnie lies over the ocean. My Bonnie lies over the sea. <br />My Bonnie lies over the ocean. Oh, bring back my Bonnie to me.<br /> Note that the browser simply ignores the line breaks in the source code!</p>
+            <p style = {{fontFamily:"serif",fontSize:"20px",color:"GrayText" ,width: "60%",margin: "1rem auto", textAlign:"center"}}>20+ years of Experience, Advanced Imaging Society award winner for The Martian, Peoples person, a trained chef, basketball coach, a theatrical actor and a sports commentator for ESPN Star Sports in Singapore. </p>
             
         
         </div>

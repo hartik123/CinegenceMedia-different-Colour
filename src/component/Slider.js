@@ -15,7 +15,7 @@ const Slider = (props) => {
     }, [])
     return (
         <div className="main_div">
-            <b><h4 style={{color: "#fff", paddingLeft: "1rem"}}>{props.title}</h4></b>
+            <b><h4 style={{color: "#fff",fontSize: "2rem",fontWeight: "600", paddingLeft: "1.5rem"}}>{props.title}</h4></b>
             <div className="center_div">
                 {
                     images.map((imageUrl) => {

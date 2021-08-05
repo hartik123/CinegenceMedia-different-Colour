@@ -13,41 +13,49 @@ const Contact = () => {
     }
     return (
         <div id="contact" style={contactStyle}>
+
+
             <div style={{ margin: "5rem", display: "inline", width: "auto", height: "auto" }}>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.4523260589867!2d72.86281901490716!3d19.21910885245276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b732f361dc25%3A0xdb427764a8b4c9d9!2sBlue%20Rose%20Ind.%20P.C.S%20Ltd!5e0!3m2!1sen!2sin!4v1625567379906!5m2!1sen!2sin" width="600" height="450" style={{ border: 0 }} allowfullscreen="" loading="lazy" title="googlemap"></iframe>
                 <h6 style={{ width: "600", margin: "1rem 12rem", color: "white" }}>Now Open in Google maps</h6>
             </div>
-            <div style={{ backgroundColor: "rgb(54, 7, 7)", width: "600px", margin: "5rem" }}>
-                <h1 style={{ textAlign: "center", color: "white", paddingTop: "2rem" }}>Contact Us</h1>
-                <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", marginTop: "5rem" }}>
+
+
+
+            <div style={{ backgroundColor: "rgb(54, 7, 7)",borderRadius: "3rem", width: "600px", margin: "5rem" ,boxShadow: "1rem 1rem 1rem #9c4c4c"}}>
+
+                <h1 style={{ fontSize: "3rem", textAlign: "center", color: "white", paddingTop: "2rem" }}>Contact Us</h1>
+
+                <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", marginTop: "2rem" }}>
                     <div ><center>
                         <span style={{ color: "white", fontWeight: "bold", margin: "1rem" }}>BUSINESS ENQUIRY</span><br />
 
-                        <a href="mailto:business@cinegencemedia.com" style={{ fontSize: "1.2rem", fontWeight: "600", color: "#f20707", opacity: "0.7", margin: "1rem" }}>business@cinegencemedia.com
+                        <a href="mailto:business@cinegencemedia.com" style={{ fontSize: "1.2rem", fontWeight: "600", color: "#f20707", opacity: "0.7",display: "block", margin: "0.5rem auto 1.3rem auto" }}>business@cinegencemedia.com
                         </a>  </center>              </div>
+
                     <div>
                         <center>
                             <span style={{ color: "white", fontWeight: "bold", margin: "1rem" }}> WORK WITH US</span><br />
 
-                            <a href="mailto:work@cinegencemedia.com" style={{ fontSize: "1.2rem", fontWeight: "600", color: "#f20707", opacity: "0.7", margin: "1rem" }}>work@cinegencemedia.com
+                            <a href="mailto:work@cinegencemedia.com" style={{ fontSize: "1.2rem", fontWeight: "600", color: "#f20707", opacity: "0.7",display: "block", margin: "0.5rem auto 1.3rem auto" }}>work@cinegencemedia.com
                             </a></center>                  </div>
                     <div>
                         <center>
                             <span style={{ color: "white", fontWeight: "bold", margin: "1rem" }}>PRESS ENQUIRY</span><br />
 
-                            <a href="mailto:press@cinegencemedia.com" style={{ fontSize: "1.2rem", fontWeight: "600", color: "#f20707", opacity: "0.7", margin: "1rem" }}>press@cinegencemedia.com
+                            <a href="mailto:press@cinegencemedia.com" style={{ fontSize: "1.2rem", fontWeight: "600", color: "#f20707", opacity: "0.7",display: "block", margin: "0.5rem auto 1.3rem auto" }}>press@cinegencemedia.com
                             </a></center>                  </div>
                     <div>
                         <center>
                             <span style={{ color: "white", fontWeight: "bold", margin: "1rem" }}>CREATIVE ENQUIRY</span><br />
 
-                            <a href="mailto:creative@cinegencemedia.com" style={{ fontSize: "1.2rem", fontWeight: "600", color: "#f20707", opacity: "0.7", margin: "1rem" }}>creative@cinegencemedia.com
+                            <a href="mailto:creative@cinegencemedia.com" style={{ fontSize: "1.2rem", fontWeight: "600", color: "#f20707", opacity: "0.7",display: "block",margin: "0.5rem auto 1.3rem auto" }}>creative@cinegencemedia.com
                             </a></center>  </div>
 
                     <div>
                         <center>
                             <span style={{ color: "white", fontWeight: "bold", margin: "1rem" }}>MARKETING</span> <br />
-                            <a href="mailto:creative@cinegencemedia.com" style={{ fontSize: "1.2rem", fontWeight: "600", color: "#f20707", opacity: "0.7", margin: "1rem" }}>creative@cinegencemedia.com
+                            <a href="mailto:creative@cinegencemedia.com" style={{ fontSize: "1.2rem", fontWeight: "600", color: "#f20707", opacity: "0.7",display: "block", margin: "0.5rem auto 1.3rem auto" }}>creative@cinegencemedia.com
                             </a></center>    </div>
                 </div>
             </div>

@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Reels from './pages/Reels'
 import Contact from './pages/Contact';
+import Services from './pages/Services';
 import Navbar from './component/Navbar';
 import HamburgerMenu from 'react-hamburger-menu';
 import Footer from './component/Footer';
@@ -41,12 +42,14 @@ const App = () => {
                 id="home" />
             <About
                 id="about" />
-            <Reels 
-            id="reels" />
-            <Contact 
-            id="contact" />
+            <Reels
+                id="reels" />
+            <Services
+                id="services" />
+            <Contact
+                id="contact" />
             <center>
-            <Footer />
+                <Footer />
             </center>
         </div>
     )

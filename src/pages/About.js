@@ -30,6 +30,8 @@ import Image from 'react-bootstrap/Image';
 import {Card, Button, Carousel } from 'react-bootstrap';
 import sun from '../images/sun.jpg';
 import CardComponent from '../component/CardComponent';
+import CardComponent2 from '../component/CardComponent2';
+import CardComponent3 from '../component/CardComponent3';
 import CardScroll from '../component/CardScroll';
 
 const About = () => {
@@ -45,7 +47,7 @@ const About = () => {
 <>
 
     <div id="about" style={{ minHeight: "100vh", marginTop: "0rem", paddingTop: "1rem"}}>
-<center><h1 style={{color: "#f5ebeb"}}>ABOUT US</h1></center>
+<center><h1 style={{fontSize: "3rem", color: "#f5ebeb"}}>ABOUT US</h1></center>
     {/* {true && <Nav />} */}
       <center>
       <p style={{fontSize: "2rem", width: "60%",padding: "2rem", textAlign: "center", color: "#f5ebeb"}}>CINEGENCE MEDIA is a boutique studio located in Mumbai India the heart of Bollywood, and the centre for the best talent available across the world for visual effects with the experience of working on some of the biggest Hollywood Movies.</p>
@@ -105,7 +107,7 @@ const About = () => {
 <br />
 <div style={{backgroundColor: "#fff"}}>
 <hr style={{border: "0.1px solid #ccc", backgroundColor: "#5b82c2"}}/>            <div>
-              <p style={{fontSize: "3rem", textAlign: "center",marginBottom: "2rem", color: "rgb(5, 44, 111)"}}>OUR WORK</p>
+              <p style={{fontSize: "2rem",fontWeight: "600", textAlign: "center",marginBottom: "2rem", color: "rgb(5, 44, 111)"}}>OUR WORK</p>
             </div>
             <CardScroll />
           
@@ -116,15 +118,15 @@ const About = () => {
   <br />
             <hr style={{border: "0.1px solid #f5ebeb", backgroundColor: "#000"}}/>
             <div>
-              <p style={{fontSize: "3rem", textAlign: "center", color: "#fff"}}>OUR TEAM</p>
+              <p style={{fontSize: "2rem",fontWeight: "600", textAlign: "center", color: "#fff"}}>OUR TEAM</p>
             </div>
             <div style={container}>
             {/* <Link to="/ownerinformation"><CardComponent /></Link>
             <Link to="/ownerinformation"><CardComponent /></Link>
             <Link to="/ownerinformation"><CardComponent /></Link> */}
             <Link to="/ownerinformation"><CardComponent /></Link>
-            <Link to="/ownerinformation"><CardComponent /></Link>
-            <Link to="/ownerinformation"><CardComponent /></Link>
+            <Link to="/ownerinformation"><CardComponent2 /></Link>
+            <Link to="/ownerinformation"><CardComponent3 /></Link>
             
             </div>
             </div>

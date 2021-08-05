@@ -66,7 +66,7 @@ const Navbar = ({ data }) => {
                 <center>
                 <Link
                     activeClass="active"
-                    to="about"
+                    to="services"
                     spy={true}
                     smooth={true}
                     offset={0}

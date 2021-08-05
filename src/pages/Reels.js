@@ -9,14 +9,14 @@ const Reels = () => {
     return (
         <div id="reels">
 
-            <h1 style={{ color: "#fff" }}>
+            <h1 style={{ fontSize: "3rem", color: "#fff" }}>
                 REELS
             </h1>
 
 
-            <Slider title={'Latest & Trending VFX'} />
-            <Slider title={'Popular VFX'} />
-            <Slider title={'Popular in Cinegence'} />
+            <Slider title={'COMPILATION'} />
+            <Slider title={'FILMS'} />
+            <Slider title={'TV / COMMERCIALS'} />
 
         </div>
     )
