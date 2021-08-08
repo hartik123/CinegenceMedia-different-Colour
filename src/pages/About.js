@@ -1,29 +1,4 @@
-// import React from 'react'
-// import OwnerCard from '../component/OwnerCard';
-
-// const About = () => {
-//     return (
-//         <div id="about" style={{textAlign: "center", minHeight: "100vh",  backgroundColor: "#455673", paddingTop: "2rem"}}>
-//             <h1 > In About Page</h1>
-//             <hr />
-//             <OwnerCard />
-//         </div>
-//     )
-// }
-
-// export default About;
-
-
-
-
-
-
-
-
-
-
-
-  import React from 'react'
+import React from 'react'
 import {Link} from 'react-router-dom';
 import './About.css';
 import Image from 'react-bootstrap/Image';
@@ -68,7 +43,7 @@ const About = () => {
         <div style={{display: "flex", justifyContent: "center", fontFamily: 'Quicksand, sans-serif', fontWeight: "bolder", marginTop: "2rem"}}>
       <div style={{width: "40%", margin: "1rem"}}>
       <div><span style={{fontSize: "1.3rem", color: "#f5ebeb"}}>Our Vision:</span> “To become a
-                              Premiere Visual Effects Service & Solution Provider for our
+                              Premiere Visual Effects Service and Solution Provider for our
                               clients”.
       </div><br />
       <div>
@@ -85,14 +60,14 @@ const About = () => {
             <div>
             <span style={{fontSize: "1.3rem", color: "#f5ebeb"}}>List of Movies:</span> Asura (Chinese Cinema), Robo 2.0, Zero, Sonchiriya, Student of The Year - 2, India’s Most Wanted, Manikarnika, Made In China, Stree, Kesari, Kalank, Prassthaanam, Gold, Housefull 4 (Bollywood Cinema) Antariksham 9000 KMPH, Pailwaan, Bigil,
                             Sye Raa Narasimha Reddy, Moothon (Tollywood / South Indian Cinema), Moghul, Leila, Forgotten
-                            Army, Moon-N-Me & Snowfall Season – 1 (OTT Platforms).
+                            Army, Moon-N-Me and Snowfall Season – 1 (OTT Platforms).
                         
             </div>
             </div>
             <div style={{width: "40%", margin: "1rem"}}>
-              <div>The most recent works being 30 Monedas Spanish Horror Series for HBO Spain & Portugal, EL CID for Amazon, Bollywood Feature Film "Toofaan" releasing on Amazon Prime and a Netflix series that is in production at the moment.</div><br />
+              <div>The most recent works being 30 Monedas Spanish Horror Series for HBO Spain and Portugal, EL CID for Amazon, Bollywood Feature Film "Toofaan" releasing on Amazon Prime and a Netflix series that is in production at the moment.</div><br />
               <div>
-              Servicing our Indian & International client base, we are all about building long term relationships. Our production pipeline is constantly being evolved, reshaped and customised to manage client production needs and our production teams are involved in every step of the process, fitting the very best of customized solutions into our client’s budgets and schedules.
+              Servicing our Indian and International client base, we are all about building long term relationships. Our production pipeline is constantly being evolved, reshaped and customised to manage client production needs and our production teams are involved in every step of the process, fitting the very best of customized solutions into our client’s budgets and schedules.
               </div><br />
 
               <div>With a rock solid team CineGence primarily operates its VFX Studio from Mumbai by engaging the best creative resources across India. We also have our local presence at Madrid in Spain fronted by Gabriel Lopez, to help manage different levels of services that we offer to our Spanish and Latin American clients from India.</div><br />
